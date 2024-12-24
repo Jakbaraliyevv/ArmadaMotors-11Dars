@@ -6,6 +6,7 @@ import Swipper from "../../components/homeComponents/swipper";
 import Choise from "../../components/homeComponents/choise";
 import Tavsiyalar from "../../components/homeComponents/tavsiyalar";
 import Lorem from "../../components/homeComponents/lorem";
+import CardBottom from "../../components/homeComponents/cardBottom";
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
       <Choise />
       <Tavsiyalar />
       <Lorem />
+      <CardBottom />
     </div>
   );
 }
