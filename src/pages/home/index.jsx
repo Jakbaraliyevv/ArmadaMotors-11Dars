@@ -7,6 +7,7 @@ import Choise from "../../components/homeComponents/choise";
 import Tavsiyalar from "../../components/homeComponents/tavsiyalar";
 import Lorem from "../../components/homeComponents/lorem";
 import CardBottom from "../../components/homeComponents/cardBottom";
+import Footer from "../../components/homeComponents/footer";
 
 function Home() {
   return (
@@ -19,6 +20,7 @@ function Home() {
       <Tavsiyalar />
       <Lorem />
       <CardBottom />
+      <Footer />
     </div>
   );
 }
