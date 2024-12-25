@@ -8,7 +8,9 @@ import img4 from "../../../img/yotube.svg";
 import app1 from "../../../img/appStore.svg";
 import google1 from "../../../img/googlePlay.svg";
 import border from "../../../img/footerBorder.svg";
+import { useTranslation } from "react-i18next";
 function Footer() {
+  const { t } = useTranslation();
   return (
     <footer className="mainContainer">
       <div className="mb-[40px]">
@@ -16,11 +18,11 @@ function Footer() {
       </div>
       <div className="flex items-start justify-around py-[40px]">
         <div className="flex flex-col justify-center gap-4">
-          <h3>Biz haqimizda</h3>
-          <a href="#">Kompaniya haqida ma’lumot</a>
-          <a href="#">Foydalanuvchi shartnomasi</a>
-          <a href="#">Bog’lanish</a>
-          <a href="#">Ijtimoiy tarmoqlarimiz</a>
+          <h3>{t("footer.footer1_1")}</h3>
+          <a href="#">{t("footer.footer1_2")}</a>
+          <a href="#">{t("footer.footer1_3")}</a>
+          <a href="#">{t("footer.footer1_4")}</a>
+          <a href="#">{t("footer.footer1_5")}</a>
           <div className="flex items-center justify-between cursor-pointer">
             <img src={img1} alt="" />
             <img src={img2} alt="" />
@@ -29,21 +31,21 @@ function Footer() {
           </div>
         </div>
         <div className="flex flex-col justify-center gap-4">
-          <h3>Boshqa</h3>
-          <a href="#">Ilova tili</a>
-          <a href="#">Ilovani yuklab olish</a>
+          <h3>{t("footer.footer2_1")}</h3>
+          <a href="#">{t("footer.footer2_2")}</a>
+          <a href="#">{t("footer.footer2_3")}</a>
           <div className="flex flex-col gap-4 cursor-pointer">
             <img src={app1} alt="" />
             <img src={google1} alt="" />
           </div>
         </div>
         <div className="flex flex-col justify-center gap-4">
-          <h3>Katigoriyalar</h3>
-          <a href="#">Asosiy</a>
-          <a href="#">Extiyot qismlar</a>
-          <a href="#">Yaqinda joylanganlar</a>
-          <a href="#">Aksiyalar</a>
-          <a href="#">Mijozlar tanlovi</a>
+          <h3>{t("footer.footer3_1")}</h3>
+          <a href="#">{t("footer.footer3_1")}</a>
+          <a href="#">{t("footer.footer3_2")}</a>
+          <a href="#">{t("footer.footer3_3")}</a>
+          <a href="#">{t("footer.footer3_4")}</a>
+          <a href="#">{t("footer.footer3_5")}</a>
         </div>
       </div>
     </footer>

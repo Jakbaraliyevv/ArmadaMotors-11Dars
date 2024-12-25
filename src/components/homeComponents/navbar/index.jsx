@@ -41,7 +41,7 @@ function Navbar({ hand }) {
           </div>
 
           <div className="flex items-center gap-2">
-            <img src={cal4} alt="" />
+            {/* <img src={cal4} alt="" /> */}
             <select
               onChange={changeSubmitLang}
               className="border-none outline-none bg-[rgb(1,87,190)] text-[#FFF] text-[16px]"

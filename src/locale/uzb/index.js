@@ -31,10 +31,10 @@ const uzb = {
     footer2_2: "Ilova tili",
     footer2_3: "Ilovani yuklab olish",
     footer3_1: "Katigoriyalar",
-    footer3_1: "Asosiy",
-    footer3_1: "Extiyot qismlar",
-    footer3_1: "Aksiyalar",
-    footer3_1: "Mijozlar tanlovi",
+    footer3_2: "Asosiy",
+    footer3_3: "Extiyot qismlar",
+    footer3_4: "Aksiyalar",
+    footer3_5: "Mijozlar tanlovi",
   },
 };
 
