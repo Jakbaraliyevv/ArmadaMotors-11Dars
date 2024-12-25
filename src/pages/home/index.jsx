@@ -38,11 +38,11 @@ function Home() {
       <Showcase />
       <Header />
       <Swipper />
-      {/* <Choise /> */}
-      {/* <Tavsiyalar /> */}
-      {/* <Lorem /> */}
-      {/* <CardBottom /> */}
-      {/* <Footer /> */}
+      <Choise />
+      <Tavsiyalar />
+      <Lorem />
+      <CardBottom />
+      <Footer />
     </div>
   );
 }
