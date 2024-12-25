@@ -16,6 +16,16 @@
         "uzb": "Exporso Velosiped/Avtomobil/Avtomobil ehtiyot qismlari, Aksessuarlar do'koni",
         "rus": "Exporso Магазин велосипедов/автомобилей/автозапчастей и аксессуаров",
         "eng": "Exporso Bicycle/Car/Car Spare Parts and Accessories Store"
+      },
+      "button": {
+        "uzb": "Kirish",
+        "rus": "Вход",
+        "eng": "Login"
+      },
+      "button2": {
+        "uzb": "Ko'proq Ko'rish",
+        "eng": "See More",
+        "rus": "Увидеть больше"
       }
     }
   ],

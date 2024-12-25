@@ -1,4 +1,4 @@
-const uz = {
+const uzb = {
   navbar1: {
     userCall: "Rasmiy ofis",
     shop: "Buyurtmalarim",
@@ -11,6 +11,15 @@ const uz = {
     shop: "Savat",
     user: "Profilim",
   },
+
+  navbarmain: {
+    main1: "Asosiy",
+    main2: "Ehtiyot qismlar",
+    main3: "Yaqinda joylanganlar",
+    main4: "Aksiyalar",
+    main5: "E’lon joylash",
+    main6: "Dokonlar",
+  },
 };
 
-export default uz;
+export default uzb;
