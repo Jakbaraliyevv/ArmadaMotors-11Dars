@@ -37,7 +37,7 @@ function Home() {
       <Navbar hand={hand} />
       <Showcase />
       <Header />
-      {/* <Swipper /> */}
+      <Swipper />
       {/* <Choise /> */}
       {/* <Tavsiyalar /> */}
       {/* <Lorem /> */}
