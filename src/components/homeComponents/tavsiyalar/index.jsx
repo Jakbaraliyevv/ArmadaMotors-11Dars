@@ -1,7 +1,12 @@
 import React from "react";
 import Cards from "../cardlar";
+import useFetchData from "../../../hooks/quer-dinamic";
 
 function Tavsiyalar() {
+  const { data } = useFetchData("http://localhost:5000/cards");
+
+  console.log(data);
+
   const dataMOtor = [
     {
       id: 1,
@@ -55,3 +60,4 @@ function Tavsiyalar() {
 }
 
 export default Tavsiyalar;
+

@@ -2,6 +2,13 @@ import React from "react";
 import Cards from "../cardlar";
 
 function CardBottom() {
+
+  
+
+
+
+
+
   const dataMOtor = [
     {
       id: 1,
