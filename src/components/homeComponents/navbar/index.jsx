@@ -5,6 +5,8 @@ import cal1 from "../../../img/usercall.svg";
 import cal2 from "../../../img/userArava.svg";
 import cal3 from "../../../img/userCall2.svg";
 import cal4 from "../../../img/Uzlang.svg";
+import cal5 from "../../../img/rus.webp";
+import cal6 from "../../../img/eng.png";
 import { useTranslation } from "react-i18next";
 
 function Navbar({ hand }) {
@@ -12,6 +14,7 @@ function Navbar({ hand }) {
     hand(e.target.value);
   };
 
+  const languge = localStorage.getItem("lang") || "uzb";
   const { t } = useTranslation();
 
   return (
@@ -41,7 +44,21 @@ function Navbar({ hand }) {
           </div>
 
           <div className="flex items-center gap-2">
-            {/* <img src={cal4} alt="" /> */}
+            {languge === "uzb" ? (
+              <img src={cal4} alt="Uzbek" />
+            ) : languge === "eng" ? (
+              <img
+                className="rounded-[100%] w-[22px] h-[22px]"
+                src={cal6}
+                alt="English"
+              />
+            ) : (
+              <img
+                className="rounded-[100%] w-[22px] h-[22px]"
+                src={cal5}
+                alt="Default"
+              />
+            )}
             <select
               onChange={changeSubmitLang}
               className="border-none outline-none bg-[rgb(1,87,190)] text-[#FFF] text-[16px]"
