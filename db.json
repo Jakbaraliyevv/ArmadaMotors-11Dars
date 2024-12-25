@@ -1,0 +1,235 @@
+{
+  "showcase": [
+    {
+      "id": 1,
+      "mainText": {
+        "uzb": "SKUTERLAR onlayn do'koniga xush kelibsiz",
+        "rus": "Добро пожаловать в онлайн-магазин СКУТЕРЛАР.",
+        "eng": "Welcome to the SKUTERLAR online store."
+      },
+      "text": {
+        "uzb": "Skuterlar va ularning ehtiyot qismlarini topishingiz mumkin.",
+        "rus": "Вы можете найти скутеры и их запасные части.",
+        "eng": "You can find scooters and their spare parts."
+      },
+      "title": {
+        "uzb": "Exporso Velosiped/Avtomobil/Avtomobil ehtiyot qismlari, Aksessuarlar do'koni",
+        "rus": "Exporso Магазин велосипедов/автомобилей/автозапчастей и аксессуаров",
+        "eng": "Exporso Bicycle/Car/Car Spare Parts and Accessories Store"
+      }
+    }
+  ],
+
+  "cards": [
+    {
+      "id": 1,
+      "title": {
+        "uzb": "Alloy Shimano z3",
+        "rus": "Сплав Shimano z3",
+        "eng": "Alloy Shimano z3"
+      },
+      "description": {
+        "uzb": "Yuqori sifatli materialdan tayyorlangan mustahkam skuter.",
+        "rus": "Прочный скутер, изготовленный из высококачественного материала.",
+        "eng": "A durable scooter made from high-quality material."
+      },
+      "img": "https://api.cabinet.smart-market.uz/uploads/images/ff8081819a2935cdd2689ccf",
+      "price": 18544700
+    },
+    {
+      "id": 2,
+
+      "title": {
+        "uzb": "Carbon Speedster X1",
+        "rus": "Углеродный Спидстер X1",
+        "eng": "Carbon Speedster X1"
+      },
+      "description": {
+        "uzb": "Engil va tezkor skuter, tezlikni sevuvchilar uchun.",
+        "rus": "Легкий и быстрый скутер для любителей скорости.",
+        "eng": "Lightweight and fast scooter for speed lovers."
+      },
+      "img": "https://api.cabinet.smart-market.uz/uploads/images/ff8081819a2935cdd2689ccf",
+      "price": 19999000
+    },
+    {
+      "id": 3,
+
+      "title": {
+        "uzb": "Mountain Explorer T7",
+        "rus": "Горный Исследователь T7",
+        "eng": "Mountain Explorer T7"
+      },
+      "description": {
+        "uzb": "Tog' sayohatlari uchun ideal skuter.",
+        "rus": "Идеальный скутер для горных путешествий.",
+        "eng": "Ideal scooter for mountain adventures."
+      },
+      "img": "https://api.cabinet.smart-market.uz/uploads/images/ff8081819a2935cdd2689ccf",
+      "price": 23000000
+    },
+    {
+      "id": 4,
+
+      "title": {
+        "uzb": "Urban Rider E5",
+        "rus": "Городской наездник E5",
+        "eng": "Urban Rider E5"
+      },
+      "description": {
+        "uzb": "Shahar harakati uchun mos zamonaviy skuter.",
+        "rus": "Современный скутер, подходящий для городского движения.",
+        "eng": "Modern scooter suitable for urban movement."
+      },
+      "img": "https://api.cabinet.smart-market.uz/uploads/images/ff8081819a2935cdd2689ccf",
+      "price": 21000000
+    },
+    {
+      "id": 5,
+
+      "title": {
+        "uzb": "Turbo Racer R9",
+        "rus": "Турбо Гонщик R9",
+        "eng": "Turbo Racer R9"
+      },
+      "description": {
+        "uzb": "Tezlik va quvvat uchun maxsus ishlab chiqilgan.",
+        "rus": "Специально разработан для скорости и мощности.",
+        "eng": "Designed specifically for speed and power."
+      },
+      "img": "https://api.cabinet.smart-market.uz/uploads/images/ff8081819a2935cdd2689ccf",
+      "price": 25000000
+    },
+    {
+      "id": 6,
+
+      "title": {
+        "uzb": "Eco Glide V2",
+        "rus": "Эко Глайд V2",
+        "eng": "Eco Glide V2"
+      },
+      "description": {
+        "uzb": "Ekologik toza va iqtisodiy energiya sarfli skuter.",
+        "rus": "Экологически чистый и энергоэффективный скутер.",
+        "eng": "Environmentally friendly and energy-efficient scooter."
+      },
+      "img": "https://api.cabinet.smart-market.uz/uploads/images/ff8081819a2935cdd2689ccf",
+      "price": 19500000
+    },
+    {
+      "id": 7,
+
+      "title": {
+        "uzb": "Offroad Master Z8",
+        "rus": "Внедорожный Мастер Z8",
+        "eng": "Offroad Master Z8"
+      },
+      "description": {
+        "uzb": "Notekis yo'llar uchun mukammal tanlov.",
+        "rus": "Идеальный выбор для бездорожья.",
+        "eng": "Perfect choice for rough terrains."
+      },
+      "img": "https://api.cabinet.smart-market.uz/uploads/images/ff8081819a2935cdd2689ccf",
+      "price": 28000000
+    },
+    {
+      "id": 8,
+
+      "title": {
+        "uzb": "City Hopper Q5",
+        "rus": "Городской прыгун Q5",
+        "eng": "City Hopper Q5"
+      },
+      "description": {
+        "uzb": "Shahar atrofida qulay harakatlanish uchun skuter.",
+        "rus": "Скутер для удобного перемещения по городу.",
+        "eng": "Scooter for convenient urban commuting."
+      },
+      "img": "https://api.cabinet.smart-market.uz/uploads/images/ff8081819a2935cdd2689ccf",
+      "price": 22000000
+    }
+  ],
+
+  "cardBottom": [
+    {
+      "id": 9,
+
+      "title": {
+        "uzb": "Hybrid Cruiser H3",
+        "rus": "Гибридный Крузер H3",
+        "eng": "Hybrid Cruiser H3"
+      },
+      "description": {
+        "uzb": "Gibrid texnologiyali zamonaviy dizayn.",
+        "rus": "Современный дизайн с гибридными технологиями.",
+        "eng": "Modern design with hybrid technology."
+      },
+      "img": "https://api.cabinet.smart-market.uz/uploads/images/ff8081819a2935cdd2689ccf",
+      "price": 24000000
+    },
+    {
+      "id": 10,
+
+      "title": {
+        "uzb": "Adventure Pro Y9",
+        "rus": "Приключенческий Про Y9",
+        "eng": "Adventure Pro Y9"
+      },
+      "description": {
+        "uzb": "Ochiq havo sarguzashtlari uchun ideal skuter.",
+        "rus": "Идеальный скутер для приключений на свежем воздухе.",
+        "eng": "Perfect scooter for outdoor adventures."
+      },
+      "img": "https://api.cabinet.smart-market.uz/uploads/images/ff8081819a2935cdd2689ccf",
+      "price": 26500000
+    },
+    {
+      "id": 11,
+
+      "title": {
+        "uzb": "Speed Demon S6",
+        "rus": "Скоростной Демон S6",
+        "eng": "Speed Demon S6"
+      },
+      "description": {
+        "uzb": "Har qanday yo'lda tezkorlik va ishonchlilik.",
+        "rus": "Скорость и надежность на любой дороге.",
+        "eng": "Speed and reliability on any road."
+      },
+      "img": "https://api.cabinet.smart-market.uz/uploads/images/ff8081819a2935cdd2689ccf",
+      "price": 27000000
+    },
+    {
+      "id": 12,
+
+      "title": {
+        "uzb": "Luxury Ride L5",
+        "rus": "Роскошная Поездка L5",
+        "eng": "Luxury Ride L5"
+      },
+      "description": {
+        "uzb": "Zamonaviy va qulaylik uchun mo'ljallangan.",
+        "rus": "Создан для современности и комфорта.",
+        "eng": "Designed for modernity and comfort."
+      },
+      "img": "https://api.cabinet.smart-market.uz/uploads/images/ff8081819a2935cdd2689ccf",
+      "price": 30000000
+    }
+  ],
+  "lorem": [
+    {
+      "id": 13,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf7nIpQ59RMgbEcKRCQCWHxWzFBo8RnF0L8YanPz8z8-DCBHz5YbJMWUakS1yn4efqYwQ&usqp=CAU",
+      "title": {
+        "eng": "Riding a motorcycle is an exhilarating experience, combining speed, freedom, and a deep connection with the road. The roar of the engine, the wind in your face, and the sharp turns bring a sense of adventure and excitement like no other mode of transport. Motorcycles are more than just vehicles; they represent a lifestyle and a passion that attracts millions of riders worldwide. Whether on a long journey or a quick ride through the city, a motorcycle offers an unmatched thrill, freedom, and independence.",
+        "uzb": "Motosikl haydash — bu tezlik, erkinlik va yo'l bilan chuqur aloqani birlashtirgan hayajonli tajriba. Motosiklning dvigatelining qichqirig‘i, yuzingizga urgan shamol va keskin burilishlar boshqa hech qanday transport turidan ko'ra sarguzasht va hayajon tuyg'ularini keltirib chiqaradi. Motosikllar faqat transport vositalari emas; ular millionlab haydovchilarni o'ziga jalb qiladigan turmush tarzini va ehtirosni ifodalaydi. Uzoq safarda yoki shahar bo'ylab tezkor sayrda bo‘lishidan qat'iy nazar, motosikl taqdim etadigan hayajon, erkinlik va mustaqillikni hech narsa taqqoslay olmaydi.",
+        "rus": "Езда на мотоцикле — это захватывающее переживание, которое сочетает скорость, свободу и глубокую связь с дорогой. Рев двигателя, ветер в лицо и резкие повороты придают чувство приключения и волнения, которых не может дать ни один другой вид транспорта. Мотоциклы — это не просто средства передвижения; они олицетворяют стиль жизни и страсть, которая привлекает миллионы райдеров по всему миру. Независимо от того, едете ли вы в долгое путешествие или быстро по городу, мотоцикл предоставляет незабываемое ощущение волнения, свободы и независимости."
+      },
+      "description": {
+        "eng": "Motorcycles offer more than just a mode of transportation; they provide a unique experience of freedom, speed, and connection with the road. Whether for daily commutes, weekend adventures, or long-distance touring, a motorcycle is a versatile vehicle that fulfills both practical and emotional needs. The growing popularity of motorcycles around the world is a testament to their ability to captivate riders and offer a sense of liberation.",
+        "uzb": "Motosikllar faqat transport vositasi emas, ular erkinlik, tezlik va yo‘l bilan aloqaning noyob tajribasini taqdim etadi. Kunlik ishga borish, dam olish kunlari sarguzashtlari yoki uzoq safarlar uchun, motosikl amaliy va hissiy ehtiyojlarni qondirish uchun moslashuvchan vositadir. Dunyo bo'ylab motosikllarning tobora ortib borayotgan mashhurligi, ularning haydovchilarni o'ziga jalb qilish va erkinlik hissini taklif qilish qobiliyatining guvohidir.",
+        "rus": "Мотоциклы предлагают больше, чем просто средство передвижения; они предоставляют уникальный опыт свободы, скорости и связи с дорогой. Будь то для ежедневных поездок, приключений на выходных или длительных туров, мотоцикл — это универсальное транспортное средство, которое удовлетворяет как практические, так и эмоциональные потребности. Растущая популярность мотоциклов по всему миру свидетельствует о их способности захватывать райдеров и дарить чувство освобождения."
+      }
+    }
+  ]
+}
