@@ -47,7 +47,11 @@ function Navbar({ hand }) {
 
           <div className="flex items-center gap-2">
             {languge === "uzb" ? (
-              <img src={cal4} alt="Uzbek" />
+              <img
+                className="rounded-[100%] w-[1.4em] h-[1.4em]"
+                src={cal4}
+                alt="Uzbek"
+              />
             ) : languge === "eng" ? (
               <img
                 className="rounded-[100%] w-[1.4em] h-[1.4em]"

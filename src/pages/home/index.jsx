@@ -35,7 +35,7 @@ function Home() {
   return (
     <div>
       <Navbar hand={hand} />
-      {/* <Showcase /> */}
+      <Showcase />
       {/* <Header /> */}
       {/* <Swipper /> */}
       {/* <Choise /> */}
