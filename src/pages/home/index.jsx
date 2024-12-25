@@ -35,14 +35,14 @@ function Home() {
   return (
     <div>
       <Navbar hand={hand} />
-      <Showcase />
-      <Header />
-      <Swipper />
-      <Choise />
-      <Tavsiyalar />
-      <Lorem />
-      <CardBottom />
-      <Footer />
+      {/* <Showcase /> */}
+      {/* <Header /> */}
+      {/* <Swipper /> */}
+      {/* <Choise /> */}
+      {/* <Tavsiyalar /> */}
+      {/* <Lorem /> */}
+      {/* <CardBottom /> */}
+      {/* <Footer /> */}
     </div>
   );
 }

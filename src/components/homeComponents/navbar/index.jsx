@@ -19,28 +19,30 @@ function Navbar({ hand }) {
 
   return (
     <section className=" bg-[rgb(1,87,190)] top-0 z-30 sticky">
-      <div className="mainContainer flex items-center justify-between">
-        <div className="flex items-center gap-[30px]">
+      <div className="mainContainer flex items-center justify-between max-[1150px]:text-[0.8em] max-[948px]:text-[0.7em] ">
+        <div className="flex items-center gap-[2em]">
           <div className="flex items-center gap-2">
-            <img src={cal1} alt="" />
-            <a className="text-[#FFF] text-[16px]" href="#">
+            <img className="w-[1.5em]" src={cal1} alt="" />
+            <a className="text-[#FFF] text-[1em] max-[510px]:hidden" href="#">
               {t("navbar1.userCall")}
             </a>
           </div>
-          <div className="flex items-center gap-2">
-            <img src={cal2} alt="" />
-            <a className="text-[#FFF] text-[16px]" href="#">
+          <div className="flex items-center gap-2 ">
+            <img className="w-[1.5]" src={cal2} alt="" />
+            <a className="text-[#FFF] text-[1em] max-[510px]:hidden" href="#">
               {t("navbar1.shop")}
             </a>
           </div>
         </div>
-        <div>
-          <p className="text-[#FFF] text-[16px]">{t("navbar1.choise")}</p>
+        <div className="max-[836px]:hidden">
+          <p className="text-[#FFF] text-[1em]">{t("navbar1.choise")}</p>
         </div>
-        <div className="flex items-center gap-[40px]">
+        <div className="flex items-center gap-[2.2em]">
           <div className="flex items-center gap-2">
-            <img src={cal3} alt="" />
-            <p className="text-[#FFF] text-[16px]"> {t("navbar1.connect")}</p>
+            <img className="w-[1.5em]" src={cal3} alt="" />
+            <p className="text-[#FFF] text-[1em] max-[510px]:hidden ">
+              {t("navbar1.connect")}
+            </p>
           </div>
 
           <div className="flex items-center gap-2">
@@ -48,20 +50,20 @@ function Navbar({ hand }) {
               <img src={cal4} alt="Uzbek" />
             ) : languge === "eng" ? (
               <img
-                className="rounded-[100%] w-[22px] h-[22px]"
+                className="rounded-[100%] w-[1.4em] h-[1.4em]"
                 src={cal6}
                 alt="English"
               />
             ) : (
               <img
-                className="rounded-[100%] w-[22px] h-[22px]"
+                className="rounded-[100%] w-[1.4em] h-[1.4em]"
                 src={cal5}
                 alt="Default"
               />
             )}
             <select
               onChange={changeSubmitLang}
-              className="border-none outline-none bg-[rgb(1,87,190)] text-[#FFF] text-[16px]"
+              className="border-none outline-none bg-[rgb(1,87,190)] text-[#FFF] text-[1em]"
               value={localStorage.getItem("lang")}
             >
               <option value="uzb">Uzbek</option>
