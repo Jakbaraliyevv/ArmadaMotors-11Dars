@@ -4,7 +4,7 @@ import useFetchData from "../../../hooks/quer-dinamic";
 
 function Tavsiyalar() {
   const { data } = useFetchData("http://localhost:5000/cards");
-  const lang = localStorage.getItem("lang") || "eng";
+  const lang = localStorage.getItem("lang") || "uzb";
   // const dataMOtor = [
   //   {
   //     id: 1,
@@ -53,7 +53,7 @@ function Tavsiyalar() {
       {data?.map((value) => (
         <Cards
           key={value.id}
-          title={value.title[lang] || value.title["eng"]}
+          title={value.title[lang] || value.title["uzb"]}
           price={value.price}
           img={value.img}
         />

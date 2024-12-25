@@ -66,7 +66,7 @@ function Navbar({ hand }) {
             >
               <option value="uzb">Uzbek</option>
               <option value="eng">English</option>
-              <option value="rus">Rus</option>
+              <option value="rus">Pусский</option>
             </select>
           </div>
         </div>

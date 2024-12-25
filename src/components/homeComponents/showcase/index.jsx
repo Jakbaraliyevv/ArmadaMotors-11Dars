@@ -4,7 +4,7 @@ import useFetchData from "../../../hooks/quer-dinamic";
 function Showcase() {
   const { data } = useFetchData("http://localhost:5000/showcase");
 
-  const lang = localStorage.getItem("lang") || "eng";
+  const lang = localStorage.getItem("lang") || "uzb";
   return (
     <section className="showcase">
       {data?.map((value) => (
