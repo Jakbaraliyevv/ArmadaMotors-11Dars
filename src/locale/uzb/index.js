@@ -20,6 +20,22 @@ const uzb = {
     main5: "E’lon joylash",
     main6: "Dokonlar",
   },
+
+  footer: {
+    footer1_1: "Biz haqimizda",
+    footer1_2: "Kompaniya haqida ma’lumot",
+    footer1_3: "Foydalanuvchi shartnomasi",
+    footer1_4: "Bog’lanish",
+    footer1_5: "Ijtimoiy tarmoqlarimiz",
+    footer2_1: "Boshqa",
+    footer2_2: "Ilova tili",
+    footer2_3: "Ilovani yuklab olish",
+    footer3_1: "Katigoriyalar",
+    footer3_1: "Asosiy",
+    footer3_1: "Extiyot qismlar",
+    footer3_1: "Aksiyalar",
+    footer3_1: "Mijozlar tanlovi",
+  },
 };
 
 export default uzb;
