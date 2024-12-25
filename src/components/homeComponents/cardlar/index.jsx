@@ -2,7 +2,7 @@ import React from "react";
 
 import moto from "../../../img/tavsiyaMOto.png";
 import { FaStar } from "react-icons/fa";
-function Cards({ title, price }) {
+function Cards({ title, price, img }) {
   return (
     <div className="w-full h-[420px] bg-[#eff4f9] relative rounded-xl ">
       <div className="h-[60%] w-[100%] flex  items-center justify-center">

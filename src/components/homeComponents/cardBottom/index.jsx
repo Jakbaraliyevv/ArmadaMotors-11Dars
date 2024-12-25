@@ -1,41 +1,21 @@
 import React from "react";
 import Cards from "../cardlar";
+import useFetchData from "../../../hooks/quer-dinamic";
 
 function CardBottom() {
+  const { data } = useFetchData("http://localhost:5000/cardBottom");
 
-  
-
-
-
-
-
-  const dataMOtor = [
-    {
-      id: 1,
-      title: "Alloy Shimano z3",
-      price: "18 544700 usz",
-    },
-    {
-      id: 2,
-      title: "Alloy Shimano z3",
-      price: "18 544700 usz",
-    },
-    {
-      id: 3,
-      title: "Alloy Shimano z3",
-      price: "18 544700 usz",
-    },
-    {
-      id: 4,
-      title: "Alloy Shimano z3",
-      price: "18 544700 usz",
-    },
-  ];
+  const lang = localStorage.getItem("lang") || "uzb";
 
   return (
     <div className="mainContainer grid grid-cols-4 gap-4 tavsiya">
-      {dataMOtor.map((value) => (
-        <Cards key={value.id} {...value} />
+      {data?.map((value) => (
+        <Cards
+          key={value.id}
+          title={value.title[lang] || value.title["uzb"]}
+          img={value.img}
+          price={value.price}
+        />
       ))}
     </div>
   );
