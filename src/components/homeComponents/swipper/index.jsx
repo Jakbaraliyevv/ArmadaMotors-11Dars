@@ -38,7 +38,7 @@ function Swipper() {
 
         <div className=" w-[40%] h-auto bg-gray-100  rounded-lg">
           {data?.map((value) => (
-            <div>
+            <div key={value.id}>
               <img
                 src={moto}
                 alt="Moto"

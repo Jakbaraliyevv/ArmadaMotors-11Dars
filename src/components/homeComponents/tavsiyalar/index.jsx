@@ -12,6 +12,7 @@ function Tavsiyalar() {
           key={value.id}
           title={value.title[lang] || value.title["uzb"]}
           price={value.price}
+          id={value.id}
           img={value.img}
         />
       ))}
